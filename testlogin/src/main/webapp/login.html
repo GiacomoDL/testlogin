@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+
+	body{
+		background-image: linear-gradient(to right, blue , white);
+        margin: auto;
+        margin-top: 10%;
+ 		width: 50%;
+ 		text-align: center;
+	}
+
+	label{
+		color: #003366;
+		font-size: 150%;
+		font-family: courier;
+	}
+	
+	#button{
+		color: white;
+		background-color: grey;
+		padding: 14px 40px;
+	}
+	
+	#button:hover {
+  		background-color: silver;
+	}
+	
+	
+	
+</style>
+
+</head>
+<body>
+<h1>Login</h1>
+<form action="./LoginServlet" method="post">
+  <label id="email">Email</label>
+  <br>
+  <input type="email" name="email">
+  <br>
+  <label id="password">Password</label>
+  <br>
+  <input type="password" name="password">
+  <br><br>
+  <input id="button" type="submit" value="Login">
+</form> 
+
+</body>
+</html>
